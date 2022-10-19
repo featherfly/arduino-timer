@@ -4,7 +4,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-class SoftWareTimer
+class TimeoutTimer
 {
 private:
     unsigned long _start = 0;
@@ -13,9 +13,9 @@ private:
     void (*user_onTimeout)(uint32_t running_time);
 
 public:
-    SoftWareTimer();
+    TimeoutTimer();
 
-    SoftWareTimer(uint32_t timeout);
+    TimeoutTimer(uint32_t timeout);
     /**
      * @brief start timer
      */
