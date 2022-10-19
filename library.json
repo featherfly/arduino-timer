@@ -21,8 +21,5 @@
 	"build": {
 		"srcDir": "src"
 	},
-	"dependencies": [
-		{
-		}
-	]
+	"dependencies": []
 }
